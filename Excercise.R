@@ -213,9 +213,5 @@ split<-sapply(word,function(x) strsplit(x, "_"))
 is.vector(split)
 sapply(split, function(x) unlist(x)[3])
 
-library(devtools)
-install_github("riv","tomasgreif")
-library(woe)
-
 
 
